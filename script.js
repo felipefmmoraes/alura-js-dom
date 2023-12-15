@@ -33,7 +33,7 @@ focoBt.addEventListener('click', () => {
     alterarContexto('foco');
     focoBt.classList.add('active');
     zerar();
-    tempoDecorridoEmSegundos = (0.1 * 60);
+    tempoDecorridoEmSegundos = (25 * 60);
     mostrarTempo(); 
 })
 
